@@ -23,3 +23,7 @@ To test the contract, use the following command:
 ```
 forge test -vv
 ```
+
+### Deployment
+
+The airdrop NFT wrapper has been deployed on Sonic network: [0x496bb047fe500752ec6b6797d6621e1584e5561c](https://sonicscan.org/address/0x496bb047fe500752ec6b6797d6621e1584e5561c)
