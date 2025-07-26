@@ -2,17 +2,17 @@
 pragma solidity ^0.8.13;
 
 import {Script, console} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+import {SonicAirdropWrapper} from "../src/sonic_airdrop_wrapper.sol";
 
-contract CounterScript is Script {
-    Counter public counter;
+contract SonicAirdropWrapperScript is Script {
+    SonicAirdropWrapper public sonicAirdropWrapper;
 
     function setUp() public {}
 
     function run() public {
         vm.startBroadcast();
 
-        counter = new Counter();
+        sonicAirdropWrapper = new SonicAirdropWrapper();
 
         vm.stopBroadcast();
     }
